@@ -25,7 +25,7 @@ linters:
     - gocyclo
 
 issues:
-  exclude-use-default: false
+  exclude-use-default: true
   exclude:
     - "^.*SA1019.*$"  # Excluding SA1019 errors
 
